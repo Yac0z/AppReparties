@@ -9,7 +9,7 @@ public class Client {
 
   public static void main(String[] args) throws IOException {
 
-    String ch = "Quelle est heure est-il ? ";
+    String ch = "Faux message";
     int length = ch.length();
 
     // données à envoyer
