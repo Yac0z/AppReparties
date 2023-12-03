@@ -3,8 +3,8 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
  <modelVersion>4.0.0</modelVersion>
 
- <groupId>tp.apprep</groupId>
- <artifactId>projbanque_server</artifactId>
+ <groupId>apprep.tp</groupId>
+ <artifactId>projcalcul_server</artifactId>
  <version>1.0-SNAPSHOT</version>
 
  <properties>
@@ -30,7 +30,7 @@
       <descriptorRef>jar-with-dependencies</descriptorRef>
      </descriptorRefs>
      <appendAssemblyId>false</appendAssemblyId>
-     <finalName>BanqueClient</finalName>
+     <finalName>YourJarName</finalName>
      <includes>
       <include>
        <build>
@@ -52,9 +52,9 @@
             <descriptorRef>jar-with-dependencies</descriptorRef>
            </descriptorRefs>
            <appendAssemblyId>false</appendAssemblyId>
-           <finalName>BanqueClient</finalName>
+           <finalName>calculClient</finalName>
            <includes>
-            <include>tp/apprep/rmi_Service/BanqueInterface.class</include>
+            <include>apprep/tp/rmiService/CalculInterface.class</include>
            </includes>
           </configuration>
           <executions>

@@ -1,0 +1,48 @@
+1-Que signifie  RMI ?
+
+
+Remote Methode Implementation
+Remote Model Interpolation
+Remote Method Invocation
+Rocky Mountain Institute
+Réponse correcte : 3. Remote Method Invocation
+Explication : RMI signifie Remote Method Invocation. Il s'agit d'un mécanisme en programmation Java permettant l'invocation de méthodes sur des objets distants, généralement sur une machine différente.
+
+2-Quel langage de programmation est principalement associé à RMI?
+
+ a. Python
+
+b. Java
+
+c. C++
+
+d. JavaScript
+
+Réponse correcte : b. Java
+Explication : RMI est principalement associé à Java. Il offre une manière pour les objets Java de s'invoquer mutuellement à distance, facilitant ainsi la communication entre des applications distribuées écrites en Java.
+
+3-Comment les stubs sont générés en RMI?
+
+a. Manuellement par le développeur
+
+ b. Automatiquement par la JVM (Java Virtual Machine)
+
+ c. En utilisant l'outil rmic (Remote Method Invocation Compiler)
+
+d. En écrivant du code source Java supplémentaire
+
+Réponse correcte : c. En utilisant l'outil rmic (Remote Method Invocation Compiler)
+Explication : Les stubs en RMI sont générés à l'aide de l'outil rmic. Le stub côté client est généré automatiquement par rmic à partir de l'interface Java distante, et le squelette (skeleton) côté serveur est également généré de la même manière. Ces stubs facilitent la communication entre le client et le serveur en permettant l'invocation des méthodes distantes,la création des stubs dans le contexte de RMI (Remote Method Invocation) est devenue largement automatique.
+
+
+
+################PRofa
+RMI est essentiellement construit sur une abstraction en _____ ? 
+
+2 couches
+3 couches
+4 couches
+5 couches
+La réponse exacte : 3 couches
+
+Détails de la réponse : couches des amorces (stub client et skeleton), couche Remote Reference Layer et couche Transport.

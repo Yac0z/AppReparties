@@ -1,0 +1,11 @@
+// SampleIDL.idl
+
+module SampleModule {
+Interface definition
+  interface SampleInterface {
+        string sayHello(in string name);
+
+        long add(in long a, in long b);
+  };
+
+}; // end module
